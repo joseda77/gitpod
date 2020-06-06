@@ -1,5 +1,5 @@
 image: raesene/bwapp:latest
 
-task:
+tasks:
   - init: docker ps
     command: docker run -d -p 80:80 raesene/bwapp
